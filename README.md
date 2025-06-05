@@ -61,5 +61,31 @@ Counting Sort is a non‐comparison integer sorting algorithm that counts the oc
 
 ---
 
+## Panoramica in italiano
+
+**Counting Sort Visualizer** è un’applicazione interattiva basata su JavaFX che mostra un algoritmo di ordinamento classico in esecuzione: Counting Sort. L’utente può osservare l’evoluzione passo dopo passo dell'algoritmo su un dataset casuale o definito dall'utente tramite l'apposita area testuale. L’applicativo presenta:
+
+- **Un algoritmo di ordinamento classico**: Counting Sort.
+- **Visualizzazione in tempo reale**: L'algoritmo viene eseguito nel proprio pannello, aggiornando l’altezza e il colore delle barre ad ogni operazione significativa.
+- **Parametri configurabili**: L’utente può scegliere il numero di elementi (per esempio 12, 20, 50, 100, 150, 200 e 500) o definirli tramite l'apposita area testuale.
+
+### Installazione
+
+1. Clonare questo repository:
+   ```bash
+   git clone https://github.com/danielecampione/counting_sort_visualizer.git
+   ```
+2. Aprire il progetto in un IDE con supporto JavaFX (ad esempio IntelliJ IDEA o Eclipse).
+3. Verificare che JavaFX sia sul module‐path.
+4. Compilare ed eseguire la classe `CountingSortVisualizer.java`.
+
+### Utilizzo
+
+- **Generare dati**: Cliccare “🎲 Genera Numeri Casuali” per creare un dataset di interi casuali nella gamma selezionata.
+- **Selezionare dimensione**: Usare il menu a tendina “Numero di barre” per impostare la lunghezza dell’array.
+- **Avviare l’ordinamento**: Cliccare “🚀 Ordina (Counting Sort)” per avviare l'algoritmo di ordinamento.
+
+---
+
 **License**: GNU GENERAL PUBLIC LICENSE Version 3.0
 **Author**: Daniele Campione
